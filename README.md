@@ -10,3 +10,4 @@ O objetivo da solução;
 * Hudnei Sued Passos Santana
 * Gustavo Bezerra Nonato
 * Mateus Queiroz
+* Emerson Lucas Sacramento
