@@ -61,16 +61,64 @@
 <!-- SEÇÃO DO INTEGRANTE 2                                    -->
 <!-- ======================================================== -->
 ## 1.2 Mercado, Oferta e Ecossistema
-*Responsável: João Guilherme Pinheiro*
+
+Responsável: João Guilherme Pinheiro
 
 ### 1.2.1 Produtos e Serviços
-* [Listar e detalhar o portfólio de produtos e serviços oferecidos ao mercado]
+
+A Vitalis Saúde Digital oferece um ecossistema integrado de soluções digitais voltadas à modernização e digitalização dos serviços de saúde. Seu portfólio é dividido principalmente entre soluções destinadas a profissionais e instituições de saúde e serviços direcionados diretamente aos pacientes.
+
+O principal produto é a plataforma de gestão de saúde em nuvem, disponibilizada no modelo SaaS, que permite a clínicas, consultórios, hospitais de pequeno e médio porte e operadoras de saúde gerenciar informações e processos relacionados ao atendimento dos pacientes.
+
+Entre os principais serviços e funcionalidades oferecidos estão:
+
+Telemedicina: realização de consultas médicas de forma remota, por meio de ambiente digital seguro, permitindo a comunicação entre pacientes e profissionais de saúde.
+Prontuário Eletrônico do Paciente (PEP): armazenamento e gerenciamento centralizado do histórico clínico, consultas, exames, diagnósticos e demais informações relacionadas ao paciente.
+Prescrição digital: emissão de receitas e prescrições eletrônicas com assinatura digital baseada em certificação ICP-Brasil, proporcionando maior autenticidade, rastreabilidade e segurança.
+Gestão de pacientes: cadastro, acompanhamento e organização das informações dos pacientes em um único ambiente.
+Agendamento de consultas: gerenciamento da agenda dos profissionais e disponibilização de horários para atendimento presencial ou remoto.
+Gestão de profissionais de saúde: organização das informações, agendas e atendimentos dos profissionais vinculados à instituição.
+Aplicativo ou plataforma para pacientes: ambiente destinado ao acesso a consultas, documentos médicos, prescrições e demais serviços disponibilizados pela instituição.
+Armazenamento seguro em nuvem: infraestrutura para armazenamento das informações de saúde, com mecanismos de controle de acesso, autenticação e proteção dos dados.
+Relatórios e indicadores: disponibilização de informações para apoiar a gestão das instituições de saúde e a tomada de decisões.
+
+Dessa forma, a proposta de valor da Vitalis está na integração desses serviços em uma única plataforma, reduzindo a fragmentação dos sistemas utilizados pelas instituições de saúde e proporcionando maior eficiência operacional, acessibilidade e segurança no tratamento dos dados clínicos.
 
 ### 1.2.2 Clientes
-* [Mapear o público-alvo, personas e perfil dos clientes atendidos]
+
+O público da Vitalis Saúde Digital está dividido em dois principais segmentos: clientes institucionais (B2B) e usuários finais (B2C).
+
+No modelo B2B, o público-alvo é composto principalmente por clínicas particulares, consultórios médicos, hospitais de pequeno e médio porte e operadoras de planos de saúde que necessitam digitalizar seus processos, centralizar informações clínicas e oferecer atendimento remoto aos seus pacientes.
+
+Entre as principais personas desse segmento estão:
+
+Gestor de clínica: responsável pela administração da instituição e interessado em reduzir custos operacionais, organizar processos, melhorar a produtividade da equipe e obter maior controle sobre os atendimentos.
+
+Profissional de saúde: médico ou outro profissional habilitado que utiliza a plataforma para realizar consultas, consultar prontuários, registrar informações clínicas, emitir prescrições digitais e acompanhar seus pacientes.
+
+Equipe administrativa: profissionais responsáveis por atividades como cadastro de pacientes, agendamento, organização da agenda e suporte aos atendimentos.
+
+No modelo B2C, os principais usuários são os pacientes que utilizam a plataforma para acessar serviços de saúde, principalmente consultas eletivas por telemedicina. Esse público busca maior praticidade, redução da necessidade de deslocamento, facilidade de acesso a profissionais e disponibilidade de suas informações e documentos de saúde em ambiente digital.
+
+De maneira geral, o cliente da Vitalis busca uma solução que combine praticidade, segurança, confiabilidade, facilidade de uso e integração dos serviços de saúde em uma única plataforma.
 
 ### 1.2.3 Fornecedores e Parceiros Estratégicos
-* [Identificar fornecedores críticos (infraestrutura, insumos, telecomunicações) e parceiros de negócio]
+
+Para disponibilizar seus serviços, a Vitalis Saúde Digital depende de fornecedores e parceiros estratégicos responsáveis principalmente pela infraestrutura tecnológica, segurança, conectividade e serviços relacionados ao ecossistema de saúde digital.
+
+Entre os principais fornecedores críticos estão os provedores de computação e armazenamento em nuvem, responsáveis pela hospedagem da plataforma, dos bancos de dados e dos prontuários eletrônicos. Esses fornecedores são fundamentais para garantir disponibilidade, escalabilidade, redundância e segurança da infraestrutura.
+
+Também são necessários provedores de serviços de telecomunicações e internet, que possibilitam a comunicação entre pacientes e profissionais durante as consultas de telemedicina.
+
+Outro grupo importante é formado por provedores de serviços de segurança da informação, incluindo soluções de criptografia, autenticação, monitoramento, controle de acesso, backup e proteção contra ataques cibernéticos. Esses fornecedores possuem importância estratégica devido à natureza sensível dos dados tratados pela empresa.
+
+No âmbito das prescrições digitais, a Vitalis também depende de autoridades e provedores de certificação digital vinculados à ICP-Brasil, responsáveis por fornecer mecanismos de certificação e assinatura digital necessários para garantir autenticidade e integridade dos documentos eletrônicos.
+
+Entre os parceiros estratégicos, destacam-se clínicas, hospitais, profissionais de saúde, operadoras de saúde e instituições relacionadas ao setor, que podem utilizar, integrar ou divulgar as soluções da plataforma.
+
+Além disso, podem ser estabelecidas parcerias com empresas de tecnologia, laboratórios, plataformas de exames e outros sistemas de saúde, permitindo futuramente a integração de informações e serviços e ampliando o ecossistema digital da Vitalis.
+
+Assim, o ecossistema da empresa é formado pela integração entre Vitalis, profissionais de saúde, instituições, pacientes, fornecedores de infraestrutura tecnológica e parceiros do setor de saúde, criando uma cadeia de serviços digitais na qual a segurança, disponibilidade e interoperabilidade dos dados são fatores críticos para o funcionamento do negócio.
 
 ---
 
