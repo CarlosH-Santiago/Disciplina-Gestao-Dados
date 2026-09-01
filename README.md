@@ -270,15 +270,50 @@ A plataforma disponibiliza interface para atendimento às requisições dos titu
 <!-- SEÇÃO DO INTEGRANTE 7                                    -->
 <!-- ======================================================== -->
 ## 2.4 Governança, Riscos e Valor de Negócio
-*Responsável: Mateus Queiroz*
+
+**Responsável: Mateus Queiroz**
 
 ### 2.4.1 Problemas Relacionados aos Dados
-* [Mapear desafios de qualidade dos dados (duplicidade, inconsistência, latência, erros de preenchimento)]
+
+Por atuar diretamente com informações clínicas, cadastrais e administrativas, a Vitalis Saúde Digital depende de dados completos, precisos, atualizados e disponíveis para garantir a qualidade de seus serviços. Nesse contexto, alguns problemas relacionados à qualidade dos dados podem impactar tanto os processos operacionais quanto a tomada de decisões da organização.
+
+Um dos principais desafios é a duplicidade de dados, que pode ocorrer quando um mesmo paciente, profissional ou atendimento é cadastrado mais de uma vez na plataforma. Essa situação pode fragmentar o histórico clínico do paciente, gerar inconsistências nos prontuários e dificultar a obtenção de uma visão única e confiável das informações.
+
+Outro problema relevante é a inconsistência dos dados, que pode surgir quando informações iguais são registradas de maneiras diferentes ou apresentam divergências entre os sistemas. Um exemplo seria a existência de informações cadastrais diferentes para o mesmo paciente ou divergências entre dados do agendamento, prontuário e atendimento realizado. Esse tipo de problema compromete a confiabilidade das informações e pode gerar erros nos processos.
+
+A latência dos dados também representa um desafio, principalmente em operações que dependem de informações atualizadas em tempo real. Em um cenário de telemedicina, por exemplo, atrasos na sincronização de informações entre diferentes componentes da plataforma podem comprometer o atendimento, o acesso ao prontuário ou a atualização de registros clínicos.
+
+Também devem ser considerados os erros de preenchimento, decorrentes de informações incompletas, incorretas ou inseridas em formatos inadequados pelos usuários. Esses erros podem afetar o cadastro de pacientes, registros médicos, resultados de exames, prescrições e informações utilizadas em relatórios gerenciais.
+
+Diante desses desafios, a Vitalis necessita de mecanismos de governança e qualidade de dados, como padronização de campos, validação automática, identificação e tratamento de duplicidades, regras de integridade, monitoramento da qualidade e definição clara de responsabilidades sobre os dados. Essas práticas contribuem para garantir que as informações utilizadas pela plataforma sejam confiáveis, consistentes e adequadas às necessidades do negócio.
 
 ### 2.4.2 Riscos Identificados
-* [Riscos operacionais, de indisponibilidade, vazamento e sanções regulatórias]
+
+O tratamento de dados de saúde e a dependência de sistemas digitais fazem com que a Vitalis esteja exposta a diferentes riscos que podem afetar suas operações, seus clientes e sua reputação.
+
+Entre os principais estão os riscos operacionais, relacionados a falhas nos sistemas, erros de processamento, inconsistências nos dados ou utilização de informações incorretas. Esses problemas podem provocar retrabalho, atrasos no atendimento, erros administrativos e dificuldades na execução das atividades realizadas por profissionais de saúde e equipes das instituições clientes.
+
+Outro risco importante é o de indisponibilidade dos sistemas e dados. Como a plataforma depende de infraestrutura em nuvem para disponibilizar prontuários, agendamentos, prescrições e consultas por telemedicina, uma interrupção prolongada pode comprometer diretamente a continuidade dos serviços. A indisponibilidade também pode provocar impactos financeiros, insatisfação dos clientes e perda de confiança na plataforma.
+
+O vazamento ou acesso indevido a dados representa um dos riscos mais críticos para a organização. As informações tratadas pela Vitalis incluem dados pessoais e informações relacionadas à saúde dos pacientes, exigindo controles rigorosos de segurança. A ocorrência de incidentes pode resultar em exposição de informações confidenciais, danos aos titulares dos dados, prejuízos financeiros e impactos significativos sobre a reputação da empresa.
+
+Também existem riscos regulatórios, relacionados ao descumprimento de requisitos legais e normativos aplicáveis ao tratamento de dados e à prestação de serviços digitais de saúde. A organização precisa manter mecanismos de conformidade, segurança, controle de acesso, rastreabilidade e proteção das informações, reduzindo a possibilidade de sanções e outros impactos decorrentes de não conformidades.
+
+Para reduzir esses riscos, a Vitalis deve adotar uma abordagem de governança baseada em gestão de acessos, criptografia, backups, monitoramento, auditoria, rastreabilidade, políticas de segurança, planos de continuidade e recuperação de desastres, além de processos periódicos de avaliação e tratamento de riscos.
 
 ### 2.4.3 Necessidades do Negócio
-* [Como o gerenciamento e a arquitetura de dados atendem às dores estratégicas e operacionais da organização]
+
+As necessidades de negócio da Vitalis estão diretamente relacionadas à capacidade de transformar dados em informações confiáveis para sustentar suas operações e apoiar decisões estratégicas. Nesse contexto, o gerenciamento e a arquitetura de dados devem garantir que as informações estejam disponíveis de forma segura, integrada, consistente e no momento adequado.
+
+No âmbito operacional, a organização necessita de uma estrutura que permita centralizar e integrar informações de pacientes, profissionais, consultas, prontuários, prescrições e agendamentos, reduzindo a fragmentação dos dados e facilitando o trabalho das equipes. Essa integração contribui para diminuir retrabalho, evitar erros e proporcionar maior eficiência aos processos.
+
+A arquitetura de dados também deve garantir disponibilidade e desempenho, principalmente porque serviços como telemedicina e acesso ao prontuário eletrônico dependem da consulta rápida às informações. Dessa forma, é necessário utilizar uma infraestrutura capaz de suportar o crescimento do volume de dados e da quantidade de usuários sem comprometer a qualidade dos serviços.
+
+Outra necessidade estratégica é a segurança e governança dos dados. A organização precisa estabelecer políticas, responsabilidades e controles que determinem quem pode acessar, alterar ou consultar cada tipo de informação. A rastreabilidade das operações também é importante para identificar acessos, alterações e movimentações realizadas nos dados.
+
+Além disso, os dados devem fornecer suporte à tomada de decisões gerenciais, possibilitando a criação de indicadores relacionados a atendimentos, utilização da plataforma, desempenho dos profissionais, perfil de pacientes e eficiência dos processos. Com informações confiáveis, a gestão pode identificar oportunidades de melhoria, antecipar problemas e direcionar investimentos de maneira mais eficiente.
+
+Portanto, o gerenciamento e a arquitetura de dados representam elementos estratégicos para a Vitalis Saúde Digital. Ao garantir qualidade, integração, segurança, disponibilidade e governança das informações, a organização consegue reduzir riscos, melhorar seus processos, aumentar a confiabilidade dos serviços e gerar valor para pacientes, profissionais de saúde e instituições clientes.
+
 
 ---
