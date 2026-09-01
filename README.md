@@ -100,15 +100,64 @@
 *Responsável: Hudnei Sued Santana*
 
 ### 2.1.1 Descrição do Sistema / Produto de Software
-* [Apresentar o software da empresa: proposta, finalidade e escopo funcional]
+* O VitalisConnect é a plataforma digital de saúde da Vitalis Saúde Digital, responsável por conectar pacientes e profissionais de saúde por meio de teleconsultas, gerenciamento do Prontuário Eletrônico do Paciente (PEP) e emissão de prescrições médicas digitais assinadas com certificado digital.
 
 ### 2.1.2 Dados Produzidos e Utilizados
-* **Dados de Entrada / Produzidos:** [Dados gerados pela operação do software]
-* **Dados Utilizados / Consumidos:** [Bases de dados consultadas, integrações de entrada]
 
-### 2.1.3 Atores e Utilização dos Dados
-* [Mapear quem consome ou manipula cada tipo de dado (usuários finais, áreas internas, sistemas parceiros)]
+O sistema produz e utiliza diferentes categorias de dados durante o ciclo de atendimento do paciente.
 
+### Dados cadastrais
+- Dados de identificação do paciente;
+- Informações necessárias para cadastro e identificação.
+
+### Dados clínicos
+- Sintomas;
+- Anotações de prontuário;
+- Histórico clínico;
+- Diagnósticos;
+- CID-10;
+- Informações sobre medicamentos.
+
+### Documentos
+- Exames;
+- Laudos;
+- Prescrições digitais.
+
+### Dados de operação
+- Logs de login;
+- Registros relacionados ao acesso e utilização do sistema.
+
+### 2.1.3 Ciclo dos Dados
+
+O ciclo de dados do VitalisConnect acompanha o fluxo de atendimento do paciente:
+
+Cadastro → Teleconsulta → Registro no Prontuário → Emissão de Prescrição → Consulta do Histórico e Documentos.
+
+Durante esse fluxo, os dados são produzidos ou atualizados pelos usuários autorizados e posteriormente utilizados para continuidade do atendimento e acesso às informações clínicas.
+
+### 2.1.4 Usuários dos Dados
+
+### Médico/Profissional de Saúde
+- Consulta dados do paciente;
+- Registra informações no prontuário;
+- Consulta histórico clínico;
+- Registra diagnósticos;
+- Emite prescrições digitais.
+
+### Paciente
+- Fornece seus dados cadastrais e informações durante o atendimento;
+- Consulta seu histórico;
+- Acessa prescrições e documentos relacionados ao atendimento.
+
+### Recepção/Faturamento
+- Consulta dados necessários para processos administrativos;
+- Utiliza informações relacionadas a pagamento e convênio.
+
+### 2.1.5 Entradas e Saídas
+
+As principais entradas do sistema são os dados cadastrais do paciente, sintomas e informações fornecidas durante a consulta, além dos registros realizados pelos profissionais de saúde.
+
+Como saídas, o sistema disponibiliza o prontuário eletrônico, informações do histórico clínico, documentos relacionados ao atendimento e prescrições médicas digitais.
 ---
 
 <!-- ======================================================== -->
