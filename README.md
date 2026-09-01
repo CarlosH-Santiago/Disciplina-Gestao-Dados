@@ -158,6 +158,7 @@ Durante esse fluxo, os dados são produzidos ou atualizados pelos usuários auto
 As principais entradas do sistema são os dados cadastrais do paciente, sintomas e informações fornecidas durante a consulta, além dos registros realizados pelos profissionais de saúde.
 
 Como saídas, o sistema disponibiliza o prontuário eletrônico, informações do histórico clínico, documentos relacionados ao atendimento e prescrições médicas digitais.
+
 ---
 
 <!-- ======================================================== -->
