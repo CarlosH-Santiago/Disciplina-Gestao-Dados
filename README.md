@@ -10,11 +10,11 @@
 | :--- | :--- | :--- |
 | **Carlos Henrique Santiago** | CEO (Diretor Executivo) | Líder do Repositório & Identidade Institucional |
 | **João Guilherme Pinheiro** | CMO / Diretor Comercial | Produtos, Serviços e Ecossistema de Parceiros |
-| **Joalisson Pinto Maia** | COO (Diretor de Operações) | Organograma e Processos de Negócio |
+| **Gustavo Bezerra Nonato** | COO (Diretor de Operações) | Organograma e Processos de Negócio |
 | **Hudnei Sued Santana** | Arquiteto de Software | Escopo da Plataforma e Ciclo de Dados |
-| **Gustavo Bezerra Nonato** | Engenheiro / DBA de Dados | Infraestrutura de Banco e Armazenamento em Nuvem |
-| **Mateus Queiroz** | DPO (Encarregado LGPD / Segurança) | Proteção de Dados Sensíveis e Criptografia |
-| **Emerson Lucas Sacramento** | Analista de Governança e Riscos | Análise de Riscos de Dados e Valor de Negócio |
+| **Joalisson Pinto Maia** | Engenheiro / DBA de Dados | Infraestrutura de Banco e Armazenamento em Nuvem |
+| **Emerson Lucas Sacramento** | DPO (Encarregado LGPD / Segurança) | Proteção de Dados Sensíveis e Criptografia |
+| **Mateus Queiroz** | Analista de Governança e Riscos | Análise de Riscos de Dados e Valor de Negócio |
 
 # PARTE 1: MODELAGEM DA EMPRESA
 
