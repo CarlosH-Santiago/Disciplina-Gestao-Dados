@@ -126,16 +126,51 @@
 ---
 
 <!-- ======================================================== -->
-<!-- SEÇÃO DO INTEGRANTE 6                                    -->
+<!-- SEÇÃO DO INTEGRANTE 6                                     -->
 <!-- ======================================================== -->
 ## 2.3 Privacidade e Proteção de Dados Sensíveis
-*Responsável: Emerson Lucas Sacramento*
+*Responsável: Emerson Lucas Sacramento Lima*
 
 ### 2.3.1 Mapeamento de Dados Sensíveis
-* [Identificar dados pessoais sensíveis conforme a LGPD e regulamentações do setor]
+Como os serviços da Vitalis Saúde Digital envolvem consultas e prontuários médicos, o uso de dados pessoais e de saúde faz parte do funcionamento básico da plataforma. A adequação à Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) busca garantir a segurança das informações e a privacidade dos pacientes e médicos.
+
+O inventário de dados da organização está estruturado conforme a classificação a seguir:
+
+| Categoria do Dado | Dados Coletados | Finalidade do Tratamento | Base Legal (LGPD) |
+| :--- | :--- | :--- | :--- |
+| **Dados de Saúde (Sensíveis)** | Histórico clínico, sintomas, diagnósticos, exames e prescrições médicas. | Prestação do serviço de telemedicina e gestão do Prontuário Eletrônico do Paciente (PEP). | Tutela da Saúde (Art. 11, II, "f") |
+| **Dados Biométricos** | Validação facial do paciente e assinatura digital do médico. | Autenticação de identidade, prevenção a fraudes e validação de documentos médicos. | Prevenção à Fraude (Art. 11, II, "g") |
+| **Dados Pessoais Gerais** | Nome, CPF, e-mail, telefone e registro profissional (CRM). | Cadastro, autenticação na plataforma, comunicação e emissão de notas fiscais. | Execução de Contrato (Art. 7º, V) |
+| **Dados Financeiros** | Informações de cartão de crédito e histórico de transações. | Processamento de pagamentos de consultas e assinaturas do modelo SaaS. | Execução de Contrato (Art. 7º, V) |
+
+#### Prazos de Retenção e Guarda de Dados
+* **Prontuários Médicos:** Armazenamento obrigatório pelo período mínimo de **20 (vinte) anos**, em conformidade com a Lei nº 13.787/2018 e resoluções do Conselho Federal de Medicina (CFM).
+* **Logs de Acesso:** Manutenção dos registros de conexão e acesso a aplicações pelo prazo mínimo de **6 (seis) meses**, atendendo ao Marco Civil da Internet (Lei nº 12.965/2014).
+
+---
 
 ### 2.3.2 Mecanismos de Segurança e Privacidade
-* [Protocolos de criptografia (em trânsito e em repouso), mascaramento/anonimização e controle de acesso (RBAC)]
+
+A proteção de dados e a garantia de privacidade na plataforma Vitalis são estruturadas por meio das seguintes diretrizes e controles técnicos:
+
+#### 1. Criptografia de Dados
+* **Dados em Trânsito:** Todo o tráfego de dados entre os clientes e os servidores ocorre via protocolo seguro HTTPS/TLS. Transmissões de áudio e vídeo durante teleconsultas utilizam canal cifrado de ponta a ponta.
+* **Dados em Repouso:** Os arquivos de exames, laudos e bancos de dados utilizam algoritmo de criptografia **AES-256**, impedindo a leitura indevida dos dados no nível de armazenamento.
+
+#### 2. Controle de Acesso (RBAC)
+* **Profissionais de Saúde:** Acesso restrito aos prontuários e históricos médicos dos pacientes vinculados ao seu atendimento atual ou prévio.
+* **Pacientes:** Visualização exclusiva dos próprios dados cadastrais, históricos de consultas, receitas e exames.
+* **Equipe de Infraestrutura e Suporte:** Acesso limitado a logs operacionais e métricas de desempenho, sem permissão de visualização do conteúdo clínico.
+* **Autenticação:** Exigência de Autenticação Multi-fator (MFA/2FA) para acesso de médicos e perfis administrativos.
+
+#### 3. Pseudonimização e Anonimização
+* **Relatórios e Métricas de Negócio:** Para fins de inteligência de mercado e geração de indicadores operacionais, os identificadores diretos (como nome e CPF) são substituídos por hashes irreversíveis ou totalmente removidos dos conjuntos de dados.
+
+#### 4. Gestão de Direitos dos Titulares
+A plataforma disponibiliza interface para atendimento às requisições dos titulares previstas no Art. 18 da LGPD, contemplando:
+* Confirmação e acesso aos dados pessoais armazenados.
+* Solicitação de correção de dados incompletos ou desatualizados.
+* Exportação do histórico clínico em formato estruturado e interoperável (portabilidade).
 
 ---
 
