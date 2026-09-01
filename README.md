@@ -129,13 +129,24 @@ Assim, o ecossistema da empresa é formado pela integração entre Vitalis, prof
 *Responsável: Gustavo Bezerra Nonato*
 
 ### 1.3.1 Organograma
-* [Apresentar a estrutura hierárquica e departamental em formato de lista, tabela ou diagrama Mermaid]
 
-### 1.3.2 Principais Processos de Negócio
-* [Descrever os macroprocessos operacionais, de gestão e de suporte da organização]
+A estrutura hierárquica da Vitalis Saúde Digital foi desenhada para sustentar uma operação de HealthTech no modelo SaaS. Conforme as exigências estratégicas do negócio, a estrutura conta obrigatoriamente com uma Diretoria de TI/Engenharia de Dados e um DPO (Encarregado de Dados) para garantir a governança e a segurança técnica.
 
-### 1.3.3 Objetivos Estratégicos
-* [Listar metas estratégicas mensuráveis de curto, médio e longo prazo (ex.: OKRs/KPIs)]
+```mermaid
+graph TD
+    CEO[Diretoria Executiva / CEO]
+    CEO --> DPO[DPO / Encarregado de Dados]
+    CEO --> DTI[Diretoria de TI e Engenharia de Dados]
+    CEO --> DMO[Diretoria Médica e Operações]
+    CEO --> DCM[Diretoria Comercial e Marketing]
+
+    DTI --> DEV[Desenvolvimento de Software]
+    DTI --> INFRA[Infraestrutura e Cloud AWS]
+
+    DMO --> MED[Corpo Clínico / Telemedicina]
+    DMO --> SUP[Suporte ao Paciente e Clínicas]
+
+```    
 
 ---
 
